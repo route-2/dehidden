@@ -10,7 +10,7 @@ const NavBar = () => {
         setActive(!active);
     }
     const notify = () => toast.success(' Copied to ClipBoard!', {
-        position: "bottom-right",
+        position: "bottom-center",
         autoClose: 5000,
         hideProgressBar: false,
         closeOnClick: true,
@@ -59,11 +59,11 @@ const NavBar = () => {
     <img src='https://svgshare.com/i/jBd.svg' className='w-full ' title='Dehidden' alt='Dehidden' />
 
        </div>
-       <div class="mr-8 md:hidden mt-4">
+       <div class="mr-8 md:hidden mt-4 z-10">
   <div class="grid gap-8 items-start justify-center">
     <div class="relative group">
       <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-      <button onClick={copyToClipboard} className="relative text-white px-7 py-4 bg-black rounded-full leading-none flex items-center divide-x divide-gray-600" >
+      <button onClick={onClick} className="relative text-white px-7 py-4 bg-black rounded-full leading-none flex items-center divide-x divide-gray-600" >
         
        Share
       </button>
@@ -76,7 +76,7 @@ ${ !active && 'hidden' }
 absolute flex flex-col   top-full  w-screen left-0 z-20
 md:static md:w-auto md:flex-row md:flex 
 `}>
-<div className='mr-10'> 
+<div className='mr-10 ml-10'> 
       <div className='container mt-4  bg-gray-200 rounded-full bg-opacity-20 backdrop-blur-xl  drop-shadow-lg justify-between  flex flex-row   '>
      <textarea className='w-60 pt-3 pl-4 resize-none bg-transparent text-white rounded-full border-none  h-10 md:mr-5'
      contentEditable={false}
@@ -87,12 +87,17 @@ md:static md:w-auto md:flex-row md:flex
 
      </textarea>
     
-     <div> 
-      <button className='text-white text-white bg-gradient-to-r from-red-500 via-red-400 to-red-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-400 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-900/80  text-center  font-caustic md:mr-5 mr-4   w-24 h-8 mt-2 rounded-full mb-2' onClick={copyToClipboard}>
-        Copy
+     <div class="mr-8  z-10">
+  <div class="grid gap-8 items-start justify-center">
+    <div class="relative group">
+      <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+      <button onClick={copyToClipboard} className="relative text-white mt-2 mb-2 px-7 py-3 bg-black rounded-full leading-none flex items-center divide-x divide-gray-600" >
+        
+       Copy
       </button>
-     
-      </div>
+    </div>
+  </div>
+</div>
       
 
       </div>
