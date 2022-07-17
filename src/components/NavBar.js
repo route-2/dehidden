@@ -30,7 +30,7 @@ const NavBar = () => {
     
     return (
     <>
-       <header className="bg-none relative z-1">
+       <header className="bg-none relative z-1 ">
        <div className='max-w-screen mx-auto flex items-center justify-between p-5 '> 
        <div className='w-25 '>
     <img src='https://svgshare.com/i/jBd.svg' className='w-full ' title='Dehidden' alt='Dehidden' />

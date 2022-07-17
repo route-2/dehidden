@@ -10,7 +10,7 @@ function App() {
    
   return (
     <>
-    <div className='bg-black h-screen w-full'> 
+    <div className='bg-black h-screen '> 
     
    <HomePage/>
 </div>
