@@ -21,15 +21,15 @@ const NavBar = () => {
         });
     const [copySuccess, setCopySuccess] = useState('');
     const textAreaRef = useRef(null); 
-  const urlLink = "https://run.mocky.io/v3/8321cc85-81e6-45c6-bd23-33e85c504c7d"
+  const urlLink = "https://random-data-api.com/api/users/random_user"
   
         const [data,setData] = useState([]);
-        const[show,setShow] = useState(true);
+       
         const getdata = async () => {
             try { 
         const response = await axios.get(urlLink)
         
-        setData(response.data);
+        setData(response.data.id);
             }
             catch (error) { 
                 console.log(error)
@@ -37,6 +37,7 @@ const NavBar = () => {
         
         
         };
+        const string = `de.dehidden.com/${data}`;
         useEffect(() => {
             getdata();
         }, []);
@@ -53,33 +54,41 @@ const NavBar = () => {
     return (
     <>
        <header className="bg-none relative z-1 ">
-       <div className='max-w-screen mx-auto flex items-center justify-between p-5 '> 
-       <div className='w-25 '>
+       <div className='max-w-screen mx-auto flex items-center justify-between  '> 
+       <div className='w-25 pt-4 pl-16 '>
     <img src='https://svgshare.com/i/jBd.svg' className='w-full ' title='Dehidden' alt='Dehidden' />
 
        </div>
-       <div onClick={onClick} className='md:hidden rounded-full w-24 pl-5 pt-2 pb-2 uppercase font-caustic bg-regal-red  text-white'> 
+       <div class="mr-8 md:hidden mt-4">
+  <div class="grid gap-8 items-start justify-center">
+    <div class="relative group">
+      <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+      <button onClick={copyToClipboard} className="relative text-white px-7 py-4 bg-black rounded-full leading-none flex items-center divide-x divide-gray-600" >
+        
        Share
-       </div>
+      </button>
+    </div>
+  </div>
+</div>
        <nav className={`
 
 ${ !active && 'hidden' }
-absolute flex flex-col  bg-black top-full w-full left-0 z-20
+absolute flex flex-col   top-full  w-screen left-0 z-20
 md:static md:w-auto md:flex-row md:flex 
 `}>
-<div> 
-      <div className='container  bg-gray-200 rounded-full bg-opacity-20 backdrop-blur-xl  drop-shadow-lg justify-between  flex flex-row   '>
+<div className='mr-10'> 
+      <div className='container mt-4  bg-gray-200 rounded-full bg-opacity-20 backdrop-blur-xl  drop-shadow-lg justify-between  flex flex-row   '>
      <textarea className='w-60 pt-3 pl-4 resize-none bg-transparent text-white rounded-full border-none  h-10 md:mr-5'
-     
+     contentEditable={false}
           ref={textAreaRef}
-          value={data}
+          value={string}
          >
 
 
      </textarea>
     
      <div> 
-      <button className='bg-regal-red font-caustic md:mr-5 mr-4  text-white w-24 h-8 mt-2 rounded-full mb-2' onClick={copyToClipboard}>
+      <button className='text-white text-white bg-gradient-to-r from-red-500 via-red-400 to-red-400 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-400 dark:focus:ring-red-800 shadow-lg shadow-red-500/50 dark:shadow-lg dark:shadow-red-900/80  text-center  font-caustic md:mr-5 mr-4   w-24 h-8 mt-2 rounded-full mb-2' onClick={copyToClipboard}>
         Copy
       </button>
      
