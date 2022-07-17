@@ -14,8 +14,8 @@ const HomePage = () => {
     <div class="absolute left-[55%] top-[50%]  w-[50%] h-[50%] bg-gradient-to-r from-red-300 to-yellow-100 rounded-full mix-blend-lighten filter opacity-30 blur-3xl  "></div>
     <div class=" relative  flex flex-col md:flex-row md:space-x-4 md:space-y-4  h-[70%]">
      <div className='flex m-6 text-white flex-col w-[100%] bg-grey-100'>
-<div>
-<div className='flex w-[53%] h-[90%] md:mt-18 md:w-[90%] bg-gray-700 items-center rounded-lg  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-6 text-white flex-col '>
+
+<div className='flex w-[30%] h-[90%] md:mt-18 md:w-[90%] bg-gray-700 items-center rounded-lg  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-6 text-white flex-col '>
         <div className='bg-gray-400  rounded-lg  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-6 text-white flex-row'>
 <img src="https://svgshare.com/i/jAD.svg" alt="" className='p-4'/>
 
@@ -40,7 +40,7 @@ const HomePage = () => {
 
 
 
-</div>
+
 
 
 
