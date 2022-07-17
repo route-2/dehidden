@@ -52,7 +52,7 @@ getdata();
         <div class="mr-8 w-[70%] z-10 ">
   <div class="grid gap-8 items-center justify-center">
     <div class="relative group ">
-      <div class="absolute  -inset-0.5 bg-gradient-to-r from-indigo-600 to-purple-300 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+      <div class="absolute  -inset-0.5 bg-gradient-to-r from-indigo-600 to-purple-300 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-2000 group-hover:duration-300 animate-tilt"></div>
      
      
       <img src={`https://ipfs.io/ipfs/${metadata}/image`} alt="" className=' relative  bg-black rounded-lg leading-none flex items-center divide-x divide-gray-600 p-4'/>
@@ -60,8 +60,8 @@ getdata();
   </div>
 </div>
         <div className='items-center mt-6 p-4 '>
-<h1 className='font-bold font-mono mb-2 text-center '> {name} </h1>
-<h1 className='text-center font-mono text-xl'> {description} </h1>
+<h1 className='font-bold text-center '> {name} </h1>
+<h1 className='text-center font-caustic text-xl'> {description} </h1>
 
 
 
@@ -70,11 +70,11 @@ getdata();
 <div class="mr-8 items-center hidden md:block mt-4 mb-10 z-10">
   <div class="grid gap-8 items-start justify-center">
     <div class="relative group">
-      <div class="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-      <button class="   relative text-white mt-2 mb-2 px-7 py-3 bg-indigo-300 rounded-full leading-none flex items-center divide-x divide-gray-600 inline-flex items-center">
+      <div class="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"> </div>
+      <button class="   relative text-white mt-2 mb-2 px-7 py-3 bg-indigo-300 rounded-full leading-none flex items-center  inline-flex items-center">
   <img src='https://svgshare.com/i/jBg.svg' alt='' className='mr-3'/>
   <a href='https://opensea.io/collection/shardsofeth'> 
-  <span className='mr-2 font-mono text-xl '> <strong> About </strong> </span> </a>
+  <span className='mr-2  '> <strong> About </strong> </span> </a>
 </button>
     </div>
   </div>
@@ -108,9 +108,9 @@ getdata();
 
         </div>
         <div className='items-center mt-6 '>
-<h1 className='font-bold font-mono'> View on IPFS / ARWEAVE </h1>
+<h1 className='font-bold'> View on IPFS / ARWEAVE </h1>
 
-<h3 className=' font-mono hidden md:block'> See the unlockables for this NFT on the link provided </h3>
+<h3 className=' font-caustic hidden md:block'> See the unlockables for this NFT on the link provided </h3>
         </div>
        </div>
        <div className='flex w-[93%] md:w-[90%] bg-gray-700 rounded-lg  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-6 text-white flex-row '>
@@ -119,9 +119,9 @@ getdata();
 
         </div>
         <div className='items-center mt-6 '>
-<h1 className='font-bold font-mono'> View AR experience </h1>
+<h1 className='font-bold'> View AR experience </h1>
 
-<h3 className='font-mono hidden md:block'> See how your NFT looks in augmented reality </h3>
+<h3 className='font-caustic hidden md:block'> See how your NFT looks in augmented reality </h3>
         </div>
        </div>
        <div className='flex w-[93%] md:w-[90%] bg-gray-700 rounded-lg  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-6 text-white flex-row '>
@@ -130,9 +130,9 @@ getdata();
 
         </div>
         <div className='items-center mt-6 '>
-<h1 className='font-bold font-mono'> Download 3D Model </h1>
+<h1 className='font-bold'> Download 3D Model </h1>
 
-<h3 className=' font-mono hidden md:block'> Instantly get access to the blend file</h3>
+<h3 className=' font-caustic hidden md:block'> Instantly get access to the blend file</h3>
         </div>
        </div>
        <div className='flex w-[93%] md:w-[90%] bg-gray-700 rounded-lg  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-6 text-white flex-row '>
@@ -141,9 +141,9 @@ getdata();
 
         </div>
         <div className='items-center mt-6 '>
-<h1 className='font-bold font-mono'> Join the community </h1>
+<h1 className='font-bold'> Join the community </h1>
 
-<h3 className=' font-mono hidden md:block'> Customise your NFTs specification </h3>
+<h3 className=' font-caustic hidden md:block'> Customise your NFTs specification </h3>
         </div>
        </div>
       
