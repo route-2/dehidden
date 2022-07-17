@@ -1,4 +1,6 @@
 import React from 'react';
+import axios from 'axios';
+import { useEffect } from 'react';
 import { useState,useRef } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -19,8 +21,28 @@ const NavBar = () => {
         });
     const [copySuccess, setCopySuccess] = useState('');
     const textAreaRef = useRef(null); 
+  const urlLink = "https://run.mocky.io/v3/8321cc85-81e6-45c6-bd23-33e85c504c7d"
   
-    function copyToClipboard(e) {
+        const [data,setData] = useState([]);
+        const[show,setShow] = useState(true);
+        const getdata = async () => {
+            try { 
+        const response = await axios.get(urlLink)
+        
+        setData(response.data);
+            }
+            catch (error) { 
+                console.log(error)
+            }
+        
+        
+        };
+        useEffect(() => {
+            getdata();
+        }, []);
+  
+  
+  function copyToClipboard(e) {
       textAreaRef.current.select();
      notify();
       document.execCommand('copy');
@@ -50,7 +72,7 @@ md:static md:w-auto md:flex-row md:flex
      <textarea className='w-60 pt-3 pl-4 resize-none bg-transparent text-white rounded-full border-none  h-10 md:mr-5'
      
           ref={textAreaRef}
-          value='dehidden/url'
+          value={data}
          >
 
 
