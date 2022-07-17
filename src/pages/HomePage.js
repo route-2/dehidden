@@ -60,8 +60,8 @@ getdata();
   </div>
 </div>
         <div className='items-center mt-6 p-4 '>
-<h1 className='font-bold text-center '> {name} </h1>
-<h1 className='text-center font-caustic text-xl'> {description} </h1>
+<h1 className='font-bold font-mono mb-2 text-center '> {name} </h1>
+<h1 className='text-center font-mono text-xl'> {description} </h1>
 
 
 
@@ -74,7 +74,7 @@ getdata();
       <button class="   relative text-white mt-2 mb-2 px-7 py-3 bg-indigo-300 rounded-full leading-none flex items-center divide-x divide-gray-600 inline-flex items-center">
   <img src='https://svgshare.com/i/jBg.svg' alt='' className='mr-3'/>
   <a href='https://opensea.io/collection/shardsofeth'> 
-  <span className='mr-2  '> <strong> About </strong> </span> </a>
+  <span className='mr-2 font-mono text-xl '> <strong> About </strong> </span> </a>
 </button>
     </div>
   </div>
@@ -108,9 +108,9 @@ getdata();
 
         </div>
         <div className='items-center mt-6 '>
-<h1 className=''> View on IPFS / ARWEAVE </h1>
+<h1 className='font-bold font-mono'> View on IPFS / ARWEAVE </h1>
 
-<h3 className=' hidden md:block'> See the unlockables for this NFT on the link provided </h3>
+<h3 className=' font-mono hidden md:block'> See the unlockables for this NFT on the link provided </h3>
         </div>
        </div>
        <div className='flex w-[93%] md:w-[90%] bg-gray-700 rounded-lg  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-6 text-white flex-row '>
@@ -119,9 +119,9 @@ getdata();
 
         </div>
         <div className='items-center mt-6 '>
-<h1 className=''> View AR experience </h1>
+<h1 className='font-bold font-mono'> View AR experience </h1>
 
-<h3 className=' hidden md:block'> See how your NFT looks in augmented reality </h3>
+<h3 className='font-mono hidden md:block'> See how your NFT looks in augmented reality </h3>
         </div>
        </div>
        <div className='flex w-[93%] md:w-[90%] bg-gray-700 rounded-lg  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-6 text-white flex-row '>
@@ -130,9 +130,9 @@ getdata();
 
         </div>
         <div className='items-center mt-6 '>
-<h1 className=''> Download 3D Model </h1>
+<h1 className='font-bold font-mono'> Download 3D Model </h1>
 
-<h3 className=' hidden md:block'> instantly get access to the blend file</h3>
+<h3 className=' font-mono hidden md:block'> Instantly get access to the blend file</h3>
         </div>
        </div>
        <div className='flex w-[93%] md:w-[90%] bg-gray-700 rounded-lg  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-6 text-white flex-row '>
@@ -141,9 +141,9 @@ getdata();
 
         </div>
         <div className='items-center mt-6 '>
-<h1 className=''> Join the community </h1>
+<h1 className='font-bold font-mono'> Join the community </h1>
 
-<h3 className=' hidden md:block'> Curstomise your NFTs specification </h3>
+<h3 className=' font-mono hidden md:block'> Customise your NFTs specification </h3>
         </div>
        </div>
       
