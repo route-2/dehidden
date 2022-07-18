@@ -43,9 +43,9 @@ getdata();
       <NavBar/>
     </div>
  
-    <div class="absolute top-0 -left-8  w-[50%] h-[100%] bg-gradient-to-r from-indigo-800 to-indigo-500 rounded-full mix-blend-lighten opacity-30 filter blur-3xl "></div>
-    <div class="absolute top-0 -bottom-[20%] left-[50%] w-[40%] h-[40%] bg-gradient-to-r from-pink-400 to-purple-600  rounded-full mix-blend-lighten opacity-40 filter blur-3xl"></div>
-    <div class="absolute md:left-[50%] left-[50%] top-[100%] md:top-[70%]  md:w-[40%] md:h-[30%] w-[50%] h-[40%] bg-gradient-to-r from-red-300 to-yellow-50 rounded-full mix-blend-lighten filter opacity-40 blur-[100px]  "></div>
+    <div class="absolute top-0 -left-8  w-[40%] h-[100%] bg-gradient-to-r from-indigo-800 to-indigo-400 rounded-full mix-blend-lighten opacity-40 filter blur-3xl "></div>
+    <div class="absolute top-0 -bottom-[20%] left-[50%] w-[40%] h-[40%] bg-gradient-to-r from-pink-400 to-purple-600  rounded-bl-full rounded-br-full mix-blend-lighten opacity-40 filter blur-3xl"></div>
+    <div class="absolute md:left-[50%] left-[50%] top-[100%] md:top-[70%]  md:w-[40%] md:h-[30%] w-[50%] h-[40%] bg-gradient-to-r from-red-300 to-yellow-50 rounded-tl-full rounded-tr-full mix-blend-lighten filter opacity-40 blur-[100px]  "></div>
     <div class=" relative  flex flex-col md:flex-row md:space-x-4 md:space-y-4  h-fit">
      <div className='flex text-white md:h-screen m-4 md:m-0 flex-col w-fit md:w-[50%] bg-grey-50'>
 
@@ -56,8 +56,8 @@ getdata();
     <div class="relative group ">
       <div class="absolute  -inset-0.5 bg-gradient-to-r from-indigo-600 to-purple-300 mt-[20%] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-2000 group-hover:duration-300 md:mt-[50%] animate-tilt"></div>
      
-      {/* {`https://ipfs.io/ipfs/${metadata}/image`} */}
-      <img src='https://svgshare.com/i/jCx.svg' alt="" className=' relative mt-[20%] md:mt-[10%]  bg-black rounded-lg leading-none flex items-center '/>
+     
+      <img src={`https://ipfs.io/ipfs/${metadata}/image`} alt="" className=' relative mt-[20%] md:mt-[10%]  bg-black rounded-lg leading-none flex items-center '/>
     </div>
   </div>
 </div>
@@ -114,7 +114,7 @@ getdata();
         <a href='https://opensea.io/collection/shardsofeth'> 
 <h1 className='font-bold text-lg md:text-xl '> View on IPFS / ARWEAVE </h1>    </a>
 
-<h3 className=' font-causten mr-2 hidden md:block'> See the unlockables for this NFT on the link provided </h3>
+<h3 className=' font-causten mr- hidden md:block'> See the unlockables for this NFT on the link provided </h3>
         </div>
        </div>
      
