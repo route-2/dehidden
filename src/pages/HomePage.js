@@ -43,9 +43,9 @@ getdata();
       <NavBar/>
     </div>
  
-    <div class="absolute top-0 -left-8  w-[40%] h-[80%] bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mix-blend-lighten opacity-50 filter blur-3xl "></div>
-    <div class="absolute top-0 -bottom-[20%] left-[50%] w-[40%] h-[40%] bg-gradient-to-r from-pink-400 to-purple-500  rounded-full mix-blend-lighten opacity-50 filter blur-3xl"></div>
-    <div class="absolute md:left-[70%] left-[50%] top-[100%] md:top-[70%]  md:w-[30%] md:h-[30%] w-[40%] h-[40%] bg-gradient-to-r from-red-300 to-yellow-50 rounded-full mix-blend-lighten filter opacity-50 blur-[100px]  "></div>
+    <div class="absolute top-0 -left-8  w-[40%] h-[80%] bg-indigo-800 rounded-full mix-blend-lighten opacity-40 filter blur-3xl "></div>
+    <div class="absolute top-0 -bottom-[20%] left-[50%] w-[40%] h-[40%] bg-gradient-to-r from-pink-400 to-purple-600  rounded-full mix-blend-lighten opacity-40 filter blur-3xl"></div>
+    <div class="absolute md:left-[50%] left-[50%] top-[100%] md:top-[70%]  md:w-[40%] md:h-[30%] w-[50%] h-[40%] bg-gradient-to-r from-red-300 to-yellow-50 rounded-full mix-blend-lighten filter opacity-60 blur-[100px]  "></div>
     <div class=" relative  flex flex-col md:flex-row md:space-x-4 md:space-y-4  h-fit">
      <div className='flex text-white md:h-screen m-4 md:m-0 flex-col w-fit md:w-[50%] bg-grey-100'>
 
