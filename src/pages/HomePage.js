@@ -56,16 +56,16 @@ getdata();
     <div class="relative group ">
       <div class="absolute  -inset-0.5 bg-gradient-to-r from-indigo-600 to-purple-300 mt-[20%] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-2000 group-hover:duration-300 md:mt-[50%] animate-tilt"></div>
      
-     
-      <img src={`https://ipfs.io/ipfs/${metadata}/image`} alt="" className=' relative mt-[20%] md:mt-[10%]  bg-black rounded-lg leading-none flex items-center '/>
+      {/* {`https://ipfs.io/ipfs/${metadata}/image`} */}
+      <img src='https://svgshare.com/i/jCx.svg' alt="" className=' relative mt-[20%] md:mt-[10%]  bg-black rounded-lg leading-none flex items-center '/>
     </div>
   </div>
 </div>
         <div className='items-center  p-4 '>
-<h1 className='font-bold text-center font-causten '> {name} </h1>
-<h1 className='text-center font-causten text-xl'> {description} </h1>
+<h1 className='font-bold text-center text-2xl font-causten '> Shards Of ETH </h1>
+<h1 className='text-center font-bold mt-2 font-causten text-4xl'> Level Up </h1>
 
-
+<h1 className='text-center  mt-2 font-causten font-bold text-xl'> #007 </h1>
 
         </div>
        
@@ -114,7 +114,7 @@ getdata();
         <a href='https://opensea.io/collection/shardsofeth'> 
 <h1 className='font-bold text-lg md:text-xl '> View on IPFS / ARWEAVE </h1>    </a>
 
-<h3 className=' font-causten hidden md:block'> See the unlockables for this NFT on the link provided </h3>
+<h3 className=' font-causten mr-2 hidden md:block'> See the unlockables for this NFT on the link provided </h3>
         </div>
        </div>
      
