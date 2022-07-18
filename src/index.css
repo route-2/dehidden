@@ -6,8 +6,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow-y:scroll;
-  overflow-x: hidden;
+  
+  
 }
 
 code {
@@ -24,8 +24,4 @@ code {
   .animation-delay-4000 {
     animation-delay: 4s;
   }
-}
-.container {
-    -ms-overflow-style: none; 
-    scrollbar-width: none;  
 }
