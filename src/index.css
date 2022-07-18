@@ -25,3 +25,7 @@ code {
     animation-delay: 4s;
   }
 }
+.container {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+}
