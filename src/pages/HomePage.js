@@ -105,13 +105,13 @@ getdata();
      </div>
      <div className='flex text-white items-center justify-center  flex-col w-[100%] '>
      
-     <div className='flex w-[93%] md:w-[80%] bg-black rounded-3xl items-center  bg-opacity-50 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row '>
+     <div className='flex w-[93%] md:w-[80%] bg-black shadow-lg shadow-blue-500/50 rounded-3xl items-center  bg-opacity-50 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row '>
         <div className='bg-gray-400  rounded-2xl  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row'>
 <img src="https://svgshare.com/i/jAD.svg" alt="" className='p-4'/>
 
         </div>
-        
-        <div className='items-center content-center '>
+       
+        <div className='items-center content-center shadow hover:shadow-xl '>
         <a href='https://opensea.io/collection/shardsofeth'> 
 <h1 className='font-bold text-lg md:text-xl '> View on IPFS / ARWEAVE </h1>    </a>
 
@@ -119,7 +119,7 @@ getdata();
         </div>
        </div>
      
-       <div className='flex w-[93%] md:w-[80%] bg-black rounded-3xl items-center  bg-opacity-50 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row '>
+       <div className='flex w-[93%] shadow-lg shadow-blue-500/50 md:w-[80%] bg-black rounded-3xl items-center  bg-opacity-50 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row '>
         <div className='bg-gray-400  rounded-2xl  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row'>
 <img src="https://svgshare.com/i/j9M.svg" alt="" className='p-4'/>
 
@@ -130,7 +130,7 @@ getdata();
 <h3 className='font-caustic hidden md:block'> See how your NFT looks in augmented reality </h3>
         </div>
        </div>
-       <div className='flex w-[93%] md:w-[80%] bg-black rounded-3xl items-center  bg-opacity-50 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row '>
+       <div className='flex w-[93%] shadow-lg shadow-blue-500/50 md:w-[80%] bg-black rounded-3xl items-center  bg-opacity-50 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row '>
         <div className='bg-gray-400  rounded-2xl  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row'>
 <img src="https://svgshare.com/i/jB6.svg" alt="" className='p-4'/>
 
@@ -141,7 +141,7 @@ getdata();
 <h3 className=' font-caustic hidden md:block'> Instantly get access to the blend file</h3>
         </div>
        </div>
-       <div className='flex w-[93%] md:w-[80%] bg-black rounded-3xl items-center  bg-opacity-50 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row '>
+       <div className='flex shadow-lg shadow-blue-500/50 w-[93%] md:w-[80%] bg-black rounded-3xl items-center  bg-opacity-50 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row '>
         <div className='bg-gray-400  rounded-2xl  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row'>
 <img src="https://svgshare.com/i/jAE.svg" alt="" className='p-4'/>
 
