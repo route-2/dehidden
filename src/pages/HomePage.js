@@ -102,7 +102,7 @@ getdata();
 
 
      </div>
-     <div className='flex text-white items-center justify-center  flex-col w-[100%] '>
+     <div className='flex text-white pt-4 items-center justify-center  flex-col w-[100%] '>
      
      <div className='flex w-[93%] md:w-[80%] bg-black hover:shadow-lg hover:shadow-blue-500/50 rounded-3xl items-center  bg-opacity-50 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row '>
         <div className='bg-gray-400  rounded-2xl  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row'>
