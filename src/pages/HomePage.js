@@ -46,10 +46,10 @@ getdata();
     <div class="absolute top-0 -left-8  w-[40%] h-[100%] bg-gradient-to-r from-indigo-800 to-indigo-400 rounded-full mix-blend-lighten opacity-40 filter blur-3xl "></div>
     <div class="absolute top-0 -bottom-[20%] left-[50%] w-[40%] h-[40%] bg-gradient-to-r from-pink-400 to-purple-600  rounded-bl-full rounded-br-full mix-blend-lighten opacity-40 filter blur-3xl"></div>
     <div class="absolute md:left-[50%] left-[50%] top-[100%] md:top-[70%]  md:w-[40%] md:h-[30%] w-[50%] h-[40%] bg-gradient-to-r from-red-300 to-yellow-50 rounded-tl-full rounded-tr-full mix-blend-lighten filter opacity-40 blur-[100px]  "></div>
-    <div class=" relative  flex flex-col md:flex-row md:space-x-4 md:space-y-4  h-fit">
+    <div class=" relative  flex flex-col md:flex-row md:space-x-4 md:space-y-4 h-fit">
      <div className='flex text-white md:h-screen m-4 md:m-0 flex-col w-fit md:w-[50%] bg-grey-50'>
 
-     <div className='flex w-[100%] md:h-[100vmax] justify-center md:mt-18 md:w-[100%] bg-white items-center rounded-xl md:rounded-none  bg-opacity-10 backdrop-blur-xl  drop-shadow-lg text-white flex-col '>
+     <div className='flex w-full md:h-[100vmax] justify-center md:mt-18 md:w-[100%] bg-white items-center rounded-xl md:rounded-none  bg-opacity-10 backdrop-blur-xl  drop-shadow-lg text-white flex-col '>
        
         <div class=" w-[70%] z-10 ">
   <div class="grid gap-8 items-center justify-center">
@@ -57,7 +57,7 @@ getdata();
       <div class="absolute  -inset-0.5 bg-gradient-to-r from-indigo-600 to-purple-300 mt-[20%] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-2000 group-hover:duration-300 md:mt-[50%] animate-tilt"></div>
       {/* {`https://ipfs.io/ipfs/${metadata}/image`} */}
   
-      <img src='https://svgshare.com/i/jDA.svg' alt="" className=' relative mt-[20%] md:mt-[10%]  bg-black rounded-lg leading-none flex items-center '/>
+      <img src='https://svgshare.com/i/jDA.svg' alt="" className=' relative mt-[20%] md:mt-[10%] w-[100vmax] h-full md:w-full md:h-full bg-black rounded-lg leading-none flex items-center '/>
     </div>
   </div>
 </div>
