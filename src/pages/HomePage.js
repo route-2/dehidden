@@ -45,12 +45,11 @@ getdata();
  
     <div class="absolute top-0 -left-8  w-[40%] h-[80%] bg-gradient-to-r from-blue-500 to-purple-500 rounded-full mix-blend-lighten opacity-50 filter blur-3xl "></div>
     <div class="absolute top-0 -bottom-[50%] left-[50%] w-[40%] h-[40%] bg-gradient-to-r from-pink-400 to-purple-500  rounded-full mix-blend-lighten opacity-50 filter blur-3xl"></div>
-    <div class="absolute left-[50%] top-[70%]  w-[40%] h-[50%] bg-gradient-to-r from-red-300 to-yellow-50 rounded-full mix-blend-lighten filter opacity-50 blur-[100px]  "></div>
+    <div class="absolute left-[70%] top-[70%]  w-[30%] h-[30%] bg-gradient-to-r from-red-300 to-yellow-50 rounded-full mix-blend-lighten filter opacity-50 blur-[100px]  "></div>
     <div class=" relative  flex flex-col md:flex-row md:space-x-4 md:space-y-4  h-fit">
      <div className='flex text-white m-6 md:m-0 flex-col w-fit md:w-[50%] bg-grey-100'>
 
-<div className='flex w-[100%] md:h-screen justify-center md:mt-18 md:w-[100%] bg-white items-center rounded-xl md:rounded-none h-screen  bg-opacity-10 backdrop-blur-xl  drop-shadow-lg text-white flex-col '>
-
+     <div className='flex w-[100%] md:h-screen justify-center md:mt-18 md:w-[100%] bg-white items-center rounded-xl md:rounded-none  bg-opacity-10 backdrop-blur-xl  drop-shadow-lg text-white flex-col '>
        
         <div class=" w-[70%] z-10 ">
   <div class="grid gap-8 items-center justify-center">
