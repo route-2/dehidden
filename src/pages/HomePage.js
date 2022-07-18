@@ -43,11 +43,11 @@ getdata();
       <NavBar/>
     </div>
  
-    <div class="absolute top-0 -left-8  w-[40%] h-[80%] bg-indigo-800 rounded-full mix-blend-lighten opacity-40 filter blur-3xl "></div>
+    <div class="absolute top-0 -left-8  w-[50%] h-[100%] bg-gradient-to-r from-indigo-800 to-indigo-500 rounded-full mix-blend-lighten opacity-30 filter blur-3xl "></div>
     <div class="absolute top-0 -bottom-[20%] left-[50%] w-[40%] h-[40%] bg-gradient-to-r from-pink-400 to-purple-600  rounded-full mix-blend-lighten opacity-40 filter blur-3xl"></div>
-    <div class="absolute md:left-[50%] left-[50%] top-[100%] md:top-[70%]  md:w-[40%] md:h-[30%] w-[50%] h-[40%] bg-gradient-to-r from-red-300 to-yellow-50 rounded-full mix-blend-lighten filter opacity-60 blur-[100px]  "></div>
+    <div class="absolute md:left-[50%] left-[50%] top-[100%] md:top-[70%]  md:w-[40%] md:h-[30%] w-[50%] h-[40%] bg-gradient-to-r from-red-300 to-yellow-50 rounded-full mix-blend-lighten filter opacity-40 blur-[100px]  "></div>
     <div class=" relative  flex flex-col md:flex-row md:space-x-4 md:space-y-4  h-fit">
-     <div className='flex text-white md:h-screen m-4 md:m-0 flex-col w-fit md:w-[50%] bg-grey-100'>
+     <div className='flex text-white md:h-screen m-4 md:m-0 flex-col w-fit md:w-[50%] bg-grey-50'>
 
      <div className='flex w-[100%] md:h-[100vmax] justify-center md:mt-18 md:w-[100%] bg-white items-center rounded-xl md:rounded-none  bg-opacity-10 backdrop-blur-xl  drop-shadow-lg text-white flex-col '>
        
@@ -105,7 +105,7 @@ getdata();
      <div className='flex text-white items-center justify-center  flex-col w-[100%] '>
      
      <div className='flex w-[93%] md:w-[80%] bg-black hover:shadow-lg hover:shadow-blue-500/50 rounded-3xl items-center  bg-opacity-50 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row md:mt-[60px] '>
-        <div className='bg-gray-400  rounded-2xl  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row'>
+        <div className='bg-gray-400  rounded-2xl  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-4 text-white flex-row'>
 <img src="https://svgshare.com/i/jAD.svg" alt="" className='p-4'/>
 
         </div>
@@ -119,7 +119,7 @@ getdata();
        </div>
      
        <div className='flex w-[93%] hover:shadow-lg hover:shadow-blue-500/50 md:w-[80%] bg-black rounded-3xl items-center  bg-opacity-50 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row '>
-        <div className='bg-gray-400  rounded-2xl  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row'>
+        <div className='bg-gray-400  rounded-2xl  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-4 text-white flex-row'>
 <img src="https://svgshare.com/i/j9M.svg" alt="" className='p-4'/>
 
         </div>
@@ -130,7 +130,7 @@ getdata();
         </div>
        </div>
        <div className='flex w-[93%] hover:shadow-lg hover:shadow-blue-500/50 md:w-[80%] bg-black rounded-3xl items-center  bg-opacity-50 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row '>
-        <div className='bg-gray-400  rounded-2xl  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row'>
+        <div className='bg-gray-400  rounded-2xl  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-4 text-white flex-row'>
 <img src="https://svgshare.com/i/jB6.svg" alt="" className='p-4'/>
 
         </div>
@@ -141,7 +141,7 @@ getdata();
         </div>
        </div>
        <div className='flex hover:shadow-lg hover:shadow-blue-500/50 w-[93%] md:w-[80%] bg-black rounded-3xl items-center  bg-opacity-50 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row '>
-        <div className='bg-gray-400  rounded-2xl  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-2 text-white flex-row'>
+        <div className='bg-gray-400  rounded-2xl  bg-opacity-30 backdrop-blur-xl  drop-shadow-lg m-4 text-white flex-row'>
 <img src="https://svgshare.com/i/jAE.svg" alt="" className='p-4'/>
 
         </div>
