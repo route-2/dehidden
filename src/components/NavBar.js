@@ -77,8 +77,8 @@ absolute flex flex-col   top-full  w-screen left-0 z-20
 md:static md:w-auto md:flex-row md:flex 
 `}>
 <div className='mr-10 ml-10'> 
-      <div className='container mt-4 bg-gray-200 rounded-full bg-opacity-20 backdrop-blur-xl  drop-shadow-lg justify-between  w-fit md:w-fit flex flex-row items-center  '>
-     <textarea className='w-fit h-6 pl-6 resize-none bg-transparent text-white rounded-full border-none md:mr-5'
+      <div className='container mt-4  bg-gray-200 rounded-full bg-opacity-20 backdrop-blur-xl  drop-shadow-lg justify-between  w-fit md:w-fit flex flex-row items-center  '>
+     <textarea className='w-fit h-6 pl-6 resize-none bg-transparent text-white rounded-full border-none md:mr-5 mr-4'
      contentEditable={false}
           ref={textAreaRef}
           value={string}
@@ -90,8 +90,8 @@ md:static md:w-auto md:flex-row md:flex
      <div class="mr-8  z-10">
   <div class="grid gap-8 items-start justify-center">
     <div class="relative group">
-      <div class="absolute w-22 h-10 mt-1.5 mb-0.5 -inset-0.5 bg-gradient-to-r from-red-600 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-90 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-      <button onClick={copyToClipboard} className="relative text-white mt-2 mb-2 px-6 py-2 bg-regal-red rounded-full leading-none flex items-center divide-x divide-gray-600" >
+      <div class="absolute w-22 h-10 mt-1.5 mb-0.5  -inset-0.5 bg-gradient-to-r from-red-600 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-90 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+      <button onClick={copyToClipboard} className="relative text-white mt-2 mb-2   px-6 py-2 bg-regal-red rounded-full leading-none flex items-center divide-x divide-gray-600" >
        Copy
       </button>
     </div>
