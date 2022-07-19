@@ -55,7 +55,7 @@ const NavBar = () => {
     <>
        <header className="bg-none relative z-1 w-screen ">
        <div className='max-w-screen mx-auto flex items-center justify-between  '> 
-       <div className='w-25 pt-4 pl-16 '>
+       <div className='w-25 pt-4 pl-4 '>
     <img src='https://svgshare.com/i/jBd.svg' className='w-full ' title='Dehidden' alt='Dehidden' />
 
        </div>
