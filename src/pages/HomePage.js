@@ -47,7 +47,7 @@ getdata();
     <div class="absolute top-0 -bottom-[20%] left-[50%] w-[40%] h-[40%] bg-gradient-to-r from-pink-400 to-purple-600  rounded-bl-full rounded-br-full mix-blend-lighten opacity-40 filter blur-3xl"></div>
     <div class="absolute md:left-[50%] left-[50%] top-[100%] md:top-[70%]  md:w-[40%] md:h-[30%] w-[50%] h-[40%] bg-gradient-to-r from-red-300 to-yellow-50 rounded-tl-full rounded-tr-full mix-blend-lighten filter opacity-40 blur-[100px]  "></div>
     <div class=" relative  flex flex-col md:flex-row md:space-x-4 md:space-y-4 h-fit">
-     <div className='flex text-white md:h-screen m-4 md:m-4 flex-col w-fit md:w-[50%] bg-grey-50'>
+     <div className='flex text-white md:h-screen m-4 md:m-0 flex-col w-fit md:w-[50%] bg-grey-50'>
 
      <div className='flex w-full  md:h-[100vmax] justify-center md:mt-18 md:w-[100%] bg-white items-center rounded-xl md:rounded-none  bg-opacity-10 backdrop-blur-xl  drop-shadow-lg text-white flex-col '>
        
@@ -85,8 +85,8 @@ getdata();
       <div class=" items-center md:hidden  mt-4 mb-10 z-10">
   <div class="grid gap-8 items-start justify-center">
     <div class="relative group">
-      <div class="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-      <button class="   relative text-white mt-2 mb-2 px-4 py-3 bg-indigo-800 rounded-full leading-none flex items-center  inline-flex items-center">
+      <div class="absolute -inset-0.5 bg-gradient-to-r from-red-500 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+      <button class="   relative text-white mt-2 mb-2 px-4 py-3 bg-regal-red rounded-full leading-none flex items-center  inline-flex items-center">
   <img src='https://svgshare.com/i/jB7.svg' alt='' className='mr-3'/>
   <a href='https://opensea.io/collection/shardsofeth'> 
   <span className='mr-1 font-causten '> <strong> View On Opensea </strong> </span> </a>
