@@ -57,7 +57,7 @@ getdata();
       <div class="absolute  -inset-0.5 bg-gradient-to-r from-indigo-600 to-purple-300 mt-[20%] rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-2000 group-hover:duration-300 md:mt-[50%] animate-tilt"></div>
      
   
-      <img src= {`https://ipfs.io/ipfs/${metadata}image`} alt="" className=' relative mt-[20%]  md:mt-[10%] w-[100vmax] p-4 h-full md:w-full md:h-full bg-black rounded-lg leading-none flex items-center '/>
+      <img src= 'https://svgshare.com/i/jDA.svg' alt="" className=' relative mt-[20%]  md:mt-[10%] w-[100vmax] p-4 h-full md:w-full md:h-full bg-black rounded-lg leading-none flex items-center '/>
     </div>
   </div>
 </div>
