@@ -86,10 +86,10 @@ getdata();
   <div class="grid gap-8 items-start justify-center">
     <div class="relative group">
       <div class="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-      <button class="   relative text-white mt-2 mb-2 px-7 py-3 bg-indigo-800 rounded-full leading-none flex items-center  inline-flex items-center">
+      <button class="   relative text-white mt-2 mb-2 px-4 py-3 bg-indigo-800 rounded-full leading-none flex items-center  inline-flex items-center">
   <img src='https://svgshare.com/i/jB7.svg' alt='' className='mr-3'/>
   <a href='https://opensea.io/collection/shardsofeth'> 
-  <span className='mr-2 font-causten '> <strong> View On Opensea </strong> </span> </a>
+  <span className='mr-1 font-causten '> <strong> View On Opensea </strong> </span> </a>
 </button>
     </div>
   </div>
