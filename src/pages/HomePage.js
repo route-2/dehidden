@@ -45,7 +45,7 @@ getdata();
  
     <div class="absolute top-0 -left-8  w-[40%] h-[100%] bg-gradient-to-r from-indigo-800 to-indigo-400 rounded-full mix-blend-lighten opacity-40 filter blur-3xl "></div>
     <div class="absolute top-0 -bottom-[20%] left-[50%] w-[40%] h-[40%] bg-gradient-to-r from-pink-400 to-purple-600  rounded-bl-full rounded-br-full mix-blend-lighten opacity-40 filter blur-3xl"></div>
-    <div class="absolute md:left-[50%] left-[50%] top-[100%] md:top-[70%]  md:w-[40%] md:h-[30%] w-[60%] h-[40%] bg-gradient-to-r from-red-300 to-white rounded-tl-full rounded-tr-full mix-blend-lighten filter opacity-50 blur-[100px]  "></div>
+    <div class="absolute md:left-[50%] left-[50%] top-[100%] md:top-[70%]  md:w-[40%] md:h-[30%] w-[50%] h-[40%] bg-gradient-to-r from-red-300 to-white rounded-tl-full rounded-tr-full mix-blend-lighten filter opacity-40 blur-[100px]  "></div>
     <div class=" relative  flex flex-col md:flex-row md:space-x-4 md:space-y-4 h-fit">
      <div className='flex text-white md:h-screen m-4 md:m-0 flex-col w-fit md:w-[50%] bg-grey-50'>
 
