@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import NavBar from "../components/NavBar";
 const HomePage = () => {
-  const [metadata, setMetaData] = useState([]);
+  const [metadata, setMetaData] = useState([]); // ipfs fetching
   const [name, setName] = useState([]);
   const [description, setDescription] = useState([]);
   const getdata = async () => {
